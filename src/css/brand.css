@@ -1,0 +1,9 @@
+.brand {
+    margin: auto;
+}
+
+.brand__image {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
