@@ -177,13 +177,12 @@
 @media (min-width: 760px) {
 
     .about-me {
-        margin: 52px auto 90px auto;
+        margin: 67px auto 90px auto;
         width: 670px;
         display: flex;
         flex-flow: row wrap;
         align-items: flex-start;
-        background-color: #F2F3F0;
-        padding: 31px 45px;
+        padding: 0;
     }
 
     .about-text {
@@ -220,11 +219,12 @@
     }
 
     .contact {
+        background-color: #F2F3F0;
         display: flex;
         flex-flow: row wrap;
         align-items: flex-start;
-        width: 611px;
         margin: auto;
+        padding: 66px 76px 30px 76px;
     }
 
     .contact__info {
@@ -242,12 +242,21 @@
 
     .featured-work {
         background-color: #F2F3F0;
-        padding: 14px 0 25px 0;
+        padding: 14px 0 0 0;
         width: 100%;
+    }
+
+    .featured-work__text {
+      margin: 0;
     }
 
     .featured-work__item {
         width: 235px;
+        margin: 0;
+    }
+
+    .featured-work__item {
+      margin: 0 0 64px 0;
     }
 
     .social-list {
@@ -270,7 +279,8 @@
 
     .about-me {
         width: 900px;
-        padding: 45px 150px;
+        margin: 55px auto 55px auto;
+        padding: 0;
     }
 
     .about-text__button {
@@ -285,12 +295,20 @@
         display: none;
     }
 
+    .contact {
+      padding: 66px 295px 30px 295px;
+    }
+
     .featured-articles__title {
         margin: 67px auto 43px auto;
     }
 
     .featured-work {
-        padding-bottom: 45px;
+        padding-bottom: 0;
+    }
+
+    .featured-work__text {
+      margin: 0 0 75px 0;
     }
 
     .featured-work__title {
@@ -299,6 +317,7 @@
 
     .featured-work__item {
         width: 274px;
+        margin: 0;
     }
 
     .work-columns {
