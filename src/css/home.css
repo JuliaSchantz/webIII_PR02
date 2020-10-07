@@ -172,6 +172,14 @@
     list-style: none;
 }
 
+.featured-work__item {
+  transition: .5s ease-in-out;
+}
+
+.featured-work__item:hover {
+  transform:scale(1.1);
+}
+
 /* Responsive styles */
 
 @media (min-width: 760px) {
