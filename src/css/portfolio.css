@@ -1,0 +1,136 @@
+.back-button {
+    display: block;
+    margin: 22px 0 22px 19px;
+    width: 77px;
+    background-color: var(--color-sage);
+    text-align: center;
+    padding: 8px 15px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.back-button__text {
+    color: white;
+    font-weight: var(--weight-light);
+    font-size: var(--size-b1);
+    font-family: var(--font-body);
+    margin: 0;
+}
+
+.portfolio-column {
+    margin: auto;
+    width: 280px;
+}
+
+.portfolio-column__image {
+    width: 280px;
+    margin-top: 40px;
+}
+
+.portfolio-main {
+    margin: auto;
+    width: 280px;
+    text-align: center;
+}
+
+.portfolio-header__date {
+    font-weight: var(--weight-light);
+    font-size: 1.8rem;
+    font-family: var(--font-body);
+    color: var(--color-sage);
+    margin: 10px 0 23px 0;
+}
+
+.portfolio-header__text {
+    text-align: center;
+}
+
+.portfolio-main__image {
+    width: 280px;
+    margin: auto;
+}
+
+.portfolio-main__text {
+    text-align: left;
+    margin: 31px auto 23px auto;
+    width: 231px;
+    font-weight: var(--weight-light);
+}
+
+/* Responsive styles */
+
+@media (min-width: 760px) {
+
+    .back-button {
+        margin: 5px 0 0 0;
+    }
+
+    .contact {
+        margin-top: 80px;
+    }
+
+    .portfolio-column {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 605px;
+        margin: 20px auto 109px auto;
+    }
+
+    .portfolio-main {
+        margin-left: 109px;
+    }
+
+    .portfolio-main__image {
+        width: 550px;
+    }
+
+    .portfolio-main__text {
+        width: 438px;
+        margin-left: 56px;
+    }
+
+    .portfolio-header {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        margin: 80px 0 17px 82px;
+    }
+
+    .portfolio-header__text {
+        width: 440px;
+        margin-left: 20px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .portfolio-column {
+        margin-top: 109px;
+        width: 986px;
+    }
+
+    .portfolio-column__image {
+        width: 457px;
+    }
+
+    .portfolio-header {
+        margin-bottom: 48px;
+    }
+
+    .portfolio-main__image {
+        width: 895px;
+    }
+
+    .portfolio-main {
+        width: 895px;
+        margin: auto;
+    }
+
+    .portfolio-main__text {
+        margin: 50px auto 0 auto;
+        width: 716px;
+    }
+}

@@ -10,6 +10,7 @@
 
 /* Page-specific styles */
 @import url("css/home.css");
+@import url("css/portfolio.css");
 
 :root {
   --color-light-sage: #DEE7DA;
