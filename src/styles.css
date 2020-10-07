@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500|Merriweather:400,700&display=swap');
 
+/* Define vars */
+@import url("css/vars.css");
+
 /* Basic styles */
 @import url("css/base.css");
 @import url("css/type.css");
@@ -11,24 +14,3 @@
 /* Page-specific styles */
 @import url("css/home.css");
 @import url("css/portfolio.css");
-
-:root {
-  --color-light-sage: #DEE7DA;
-  --color-sage: #B7C2B4;
-  --color-medium-sage: #6C726B;
-  --color-dark-sage: #626861;
-
-  --font-body: 'Heebo', sans-serif;
-  --font-head: 'Merriweather', serif;
-
-  --size-b1: 1.4rem;
-  --size-b2: 1.5rem;
-  --size-h2: 2.4rem;
-  --size-h3: 2.1rem;
-  --size-h4: 1.7rem;
-
-  --weight-light: 300;
-  --weight-regular: 400;
-  --weight-medium: 500;
-  --weight-bold: 700;
-}
