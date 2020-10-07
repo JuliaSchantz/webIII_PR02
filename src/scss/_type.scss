@@ -1,25 +1,25 @@
 h2 {
   margin: 0;
-  color: var(--color-dark-sage);
-  font-size: var(--size-h2);
-  font-family: var(--font-head);
-  font-weight: var(--weight-bold);
+  color: $color-dark-sage;
+  font-size: $size-h2;
+  font-family: $font-head;
+  font-weight: $weight-bold;
 }
 
 h3 {
   margin: 0;
-  color: var(--color-sage);
-  font-family: var(--font-head);
-  font-size: var(--size-h3);
-  font-weight: var(--weight-bold);
+  color: $color-sage;
+  font-family: $font-head;
+  font-size: $size-h3;
+  font-weight: $weight-bold;
 }
 
 h4 {
   margin: 0;
   color: white;
-  font-family: var(--font-head);
-  font-size: var(--size-h4);
-  font-weight: var(--weight-bold);
+  font-family: $font-head;
+  font-size: $size-h4;
+  font-weight: $weight-bold;
 }
 
 html {
@@ -27,9 +27,9 @@ html {
 }
 
 p {
-    font-family: var(--font-body);
-    font-size: var(--size-b1);
-    font-weight: var(--weight-regular);
-    color: var(--color-medium-sage);
+    font-family: $font-body;
+    font-size: $size-b1;
+    font-weight: $weight-regular;
+    color: $color-medium-sage;
     line-height: 1.8rem;
 }
