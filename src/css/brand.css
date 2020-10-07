@@ -6,4 +6,7 @@
     display: block;
     margin: auto;
     padding: 20px;
+    opacity: 0;
+    display: none;
+    transition: opacity 1s ease-in;
 }

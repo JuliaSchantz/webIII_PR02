@@ -1,7 +1,7 @@
 .loader {
   height: 50px;
-  width: 0;
-  margin: auto;
+  width: 10px;
+  margin: 250px auto 0 auto;
   transform-origin: bottom center;
   animation: rotate 3s linear infinite;
 }
