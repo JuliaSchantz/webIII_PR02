@@ -5,13 +5,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link type="text/css" rel="stylesheet" href="styles.css" />
+  <link type="text/css" rel="stylesheet" href="css/loader.css" />
 </head>
 <body>
+
   <header>
     <h1 class="brand">
       <img class="brand__image" src="images/white-logo.png" />
     </h1>
   </header>
+
+  <div class="loader">
+    <div class="loader-circle"></div>
+    <div class="loader-circle"></div>
+  </div>
 
   <main>
       <div class="main-intro">
@@ -25,12 +32,12 @@
          <h3 class="featured-work__title">Featured Work</h3>
          <div class="work-columns">
              <li class="featured-work__item item">
-                <a class="featured-work__image" href="pages/portfolio.html">
-                  <img class="work-image" src="images/main-hauer-music.jpg" />
+                <a class="featured-work__image" href="pages/sharpie-tie-dye.html">
+                  <img class="work-image" src="images/sharpie-tie-dye.png" />
                 </a>
                 <div class="featured-work__text">
-                   <h4>Hauer Music Website</h4>
-                   <p class="featured-work__catagory">Web Design</p>
+                   <h4>Sharpie Tie-Dye</h4>
+                   <p class="featured-work__catagory">Graphic Design</p>
                 </div>
               </li>
               <li class="featured-work__item item">
@@ -51,64 +58,33 @@
                    <p class="featured-work__catagory">Graphic Design</p>
                 </div>
               </li>
-          </div>
-      </ul>
-
-      <ul class="featured-articles">
-         <h3 class="featured-articles__title">Featured Articles</h3>
-         <div class="article-columns">
-         <li class="featured-articles__item item">
-            <a href="pages/articles.html">
-                <img class="article-image" src="images/article-orange-chair.jpg" />
-            </a>
-            <div class="featured-articles__text">
-               <p class="featured-articles__info">25 Nov 2019 | by Julia Schantz</p>
-               <h4 class="featured-articles__header">5 Tips for Creating Professional Designs</h4>
-               <p class="featured-articles__para">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                 ut labore et dolore magna aliqua. Ut enim ad.
-               </p>
-            </div>
-          </li>
-          <li class="featured-articles__item item">
-            <a href="#">
-              <img class="article-image" src="images/article-lightbulb.jpg" />
-            </a>
-            <div class="featured-articles__text">
-               <p class="featured-articles__info">13 Jan 2020 | by Julia Schantz</p>
-               <h4 class="featured-articles__header">5 Tips for Creating Professional Designs</h4>
-               <p class="featured-articles__para">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                 ut labore et dolore magna aliqua. Ut enim ad.
-               </p>
-            </div>
-          </li>
-          <li class="featured-articles__item item">
-            <a href="#">
-              <img class="article-image" src="images/article-create.jpg" />
-            </a>
-            <div class="featured-articles__text">
-               <p class="featured-articles__info">27 Jan 2020 | by Julia Schantz</p>
-               <h4 class="featured-articles__header">5 Tips for Creating Professional Designs</h4>
-               <p class="featured-articles__para">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                 ut labore et dolore magna aliqua. Ut enim ad.
-               </p>
-            </div>
-          </li>
-          <li class="featured-articles__item item article--hidden">
-            <a href="#">
-              <img class="article-image" src="images/article-laptop.jpg" />
-            </a>
-            <div class="featured-articles__text">
-               <p class="featured-articles__info">27 Jan 2020 | by Julia Schantz</p>
-               <h4 class="featured-articles__header">5 Tips for Creating Professional Designs</h4>
-               <p class="featured-articles__para">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                 ut labore et dolore magna aliqua. Ut enim ad.
-               </p>
-            </div>
-          </li>
+              <li class="featured-work__item item">
+                 <a class="featured-work__image" href="pages/portfolio.html">
+                   <img class="work-image" src="images/main-hauer-music.jpg" />
+                 </a>
+                 <div class="featured-work__text">
+                    <h4>Hauer Music Website</h4>
+                    <p class="featured-work__catagory">Web Design</p>
+                 </div>
+               </li>
+               <li class="featured-work__item item">
+                  <a class="featured-work__image" href="pages/portfolio.html">
+                    <img class="work-image" src="images/hermitcrab-infograph.jpg" />
+                  </a>
+                  <div class="featured-work__text">
+                     <h4>Hermit Crab Infographic</h4>
+                     <p class="featured-work__catagory">Graphic Design</p>
+                  </div>
+                </li>
+                <li class="featured-work__item item">
+                   <a class="featured-work__image" href="pages/portfolio.html">
+                     <img class="work-image" src="images/parent-resource-guide.jpg" />
+                   </a>
+                   <div class="featured-work__text">
+                      <h4>Parent Resource Guide</h4>
+                      <p class="featured-work__catagory">Graphic Design</p>
+                   </div>
+                 </li>
           </div>
       </ul>
 
@@ -125,7 +101,7 @@
           </div>
           <img class="featured-image" src="images/about-me-portrait.jpg" />
       </section>
-
+      </div>
       <div class="contact">
           <div class="contact__info">
              <h3>Get in Touch</h3>
@@ -150,10 +126,7 @@
               </ul>
               <p class="copyright-text">©2020 - Julia Schantz | All rights reserved</p>
           </div>
-      </div>
   </main>
-  <footer>
-
-  </footer>
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+h2 {
+  margin: 0;
+  color: $color-dark-sage;
+  font-size: $size-h2;
+  font-family: $font-head;
+  font-weight: $weight-bold;
+}
+
+h3 {
+  margin: 0;
+  color: $color-sage;
+  font-family: $font-head;
+  font-size: $size-h3;
+  font-weight: $weight-bold;
+}
+
+h4 {
+  margin: 0;
+  color: white;
+  font-family: $font-head;
+  font-size: $size-h4;
+  font-weight: $weight-bold;
+}
+
+html {
+  font-size: 10px;
+}
+
+p {
+    font-family: $font-body;
+    font-size: $size-b1;
+    font-weight: $weight-regular;
+    color: $color-medium-sage;
+    line-height: 1.8rem;
+}
